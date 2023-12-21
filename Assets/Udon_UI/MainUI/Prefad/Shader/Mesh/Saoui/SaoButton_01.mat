@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SaoButton_01
+  m_Shader: {fileID: 4800000, guid: 41d78e9caf49a6040ab22af721c9385b, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Main_Text:
+        m_Texture: {fileID: 2800000, guid: f3a15c335ab087346ae9db7e8df3e6e1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Main_Text_End:
+        m_Texture: {fileID: 2800000, guid: 95a88ba05bc53b4468052b1f5aaff518, type: 3}
+        m_Scale: {x: 1, y: -1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Anim: 0
+    - _AnimDown: 0
+    - _Aphle: 0.437
+    - _Aphle_End: 1
+    - _Cutoff: 0.5
+    - _LineWide: 0.013
+    - _LineWide_End: 0.027
+    - _MainSphere: 0.197
+    - _MainSphere_End: 0.192
+    - _OuterLine: 0.304
+    - _OuterLine_End: 0.254
+    - _Rotate: 0
+    - _Rotate_End: -0.5
+    - _Size: 2.55
+    - _Size_End: 2.01
+    m_Colors:
+    - _DownColor: {r: 10.281568, g: 0.67897123, b: 0.67897123, a: 1}
+    - _LineColor: {r: 0.2924528, g: 0.2924528, b: 0.2924528, a: 1}
+    - _LineColor_End: {r: 1, g: 0.45705575, b: 0, a: 1}
